@@ -20,7 +20,7 @@ class Card extends Component {
 					?
 				</div>
 				<div className='back'>
-					<img src={'../assets/' + this.props.card + '.png'}/>
+					<i className={this.props.card}/>
 				</div>
 
 		</div>
